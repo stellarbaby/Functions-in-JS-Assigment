@@ -1,3 +1,4 @@
+"use strict";
 
 // Challenge 01 Part 02(01)
 
@@ -32,3 +33,11 @@ console.log(markBMI2);
 console.log(johnBMI2);
 console.log(markHigherBMI2);
 
+// Challenge 02 part 02
+// IF ELSE STATEMENT
+
+if (markBMI2 > johnBMI2) {
+    console.log(`Mark's BMI (${markBMI2}) is higher than John's BMI(${johnBMI2})`)
+} else {
+    console.log(`John's BMI (${markBMI2})is higher than mark's BMI (${johnBMI2})`);
+    }
